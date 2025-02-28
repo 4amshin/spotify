@@ -1,0 +1,5 @@
+Last Time:
+    - We Setup Theme
+
+Next:
+    - Register the Assets With AssetGen Package
