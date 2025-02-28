@@ -22,12 +22,26 @@ dependencies:
   get_it: ^8.0.3
   dartz: ^0.10.1
   just_audio: ^0.9.46
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  build_runner:
+  flutter_gen_runner:
 
   flutter_lints: ^4.0.0
 
+flutter_gen: 
+  output: lib/core/assets/
+  integrations:
+    flutter_svg: true
+
+
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/vectors/
