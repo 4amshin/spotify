@@ -1,0 +1,2 @@
+C:/Users/Shin/Documents/Dev File/Flutter/spotify/android/app/.cxx/Debug/3a4h2y1i/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Shin/Documents/Dev File/Flutter/spotify/android/app/.cxx/Debug/3a4h2y1i/arm64-v8a/CMakeFiles/rebuild_cache.dir

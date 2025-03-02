@@ -1,5 +1,5 @@
-Last Time: 01.00.48
-    - We Created Get Started and Choose Mode Page UI
+Last Time: 01.10.48
+    - We Created Logic for Choose Mode/Theme
 
 Next:
-    - Made Logic for Choose Mode
+    - Auth

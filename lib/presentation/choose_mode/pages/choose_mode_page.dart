@@ -1,10 +1,10 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:spotify/common/widgets/button/basic_app_button.dart';
 import 'package:spotify/core/assets/assets.gen.dart';
 import 'package:spotify/core/configs/theme/app_colors.dart';
+import 'package:spotify/presentation/choose_mode/bloc/theme_cubit.dart';
 import 'package:spotify/presentation/choose_mode/widgets/mode_item.dart';
 
 class ChooseModePage extends StatelessWidget {
@@ -55,11 +55,17 @@ class ChooseModePage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     ModeItem(
+                      onTap: () => context
+                          .read<ThemeCubit>()
+                          .updateTheme(ThemeMode.dark),
                       assetPath: Assets.vectors.moon.path,
                       text: 'Dark Mode',
                     ),
                     const SizedBox(width: 40),
                     ModeItem(
+                      onTap: () => context
+                          .read<ThemeCubit>()
+                          .updateTheme(ThemeMode.light),
                       assetPath: Assets.vectors.sun.path,
                       text: 'Light Mode',
                     ),
