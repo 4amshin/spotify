@@ -4,6 +4,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:spotify/common/widgets/button/basic_app_button.dart';
 import 'package:spotify/core/assets/assets.gen.dart';
 import 'package:spotify/core/configs/theme/app_colors.dart';
+import 'package:spotify/core/utils/build_context_ext.dart';
+import 'package:spotify/presentation/auth/pages/auth_intro_page.dart';
 import 'package:spotify/presentation/choose_mode/bloc/theme_cubit.dart';
 import 'package:spotify/presentation/choose_mode/widgets/mode_item.dart';
 
@@ -60,6 +62,7 @@ class ChooseModePage extends StatelessWidget {
                           .updateTheme(ThemeMode.dark),
                       assetPath: Assets.vectors.moon.path,
                       text: 'Dark Mode',
+                      mode: ThemeMode.dark,
                     ),
                     const SizedBox(width: 40),
                     ModeItem(
@@ -68,12 +71,13 @@ class ChooseModePage extends StatelessWidget {
                           .updateTheme(ThemeMode.light),
                       assetPath: Assets.vectors.sun.path,
                       text: 'Light Mode',
+                      mode: ThemeMode.light,
                     ),
                   ],
                 ),
                 const SizedBox(height: 50),
                 BasicAppButton(
-                  onPressed: () {},
+                  onPressed: () => context.push(const AuthIntroPage()),
                   title: 'Continue',
                 ),
               ],
