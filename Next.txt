@@ -1,5 +1,5 @@
 Last Time: 01.10.48
-    - We Created Logic for Choose Mode/Theme
+    - Created Auth Page (Intro, Register, Login Page) UI
 
 Next:
-    - Auth
+    - Continue Video
