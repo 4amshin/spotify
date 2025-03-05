@@ -1,5 +1,5 @@
-Last Time: 01.10.48
+Last Time: 02.06.00
     - Created Auth Page (Intro, Register, Login Page) UI
 
 Next:
-    - Continue Video
+    - Firebase Setup

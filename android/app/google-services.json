@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "856846965176",
+    "project_id": "shin-spotify",
+    "storage_bucket": "shin-spotify.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856846965176:android:4d6cef05f344c0e222174d",
+        "android_client_info": {
+          "package_name": "com.example.spotify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv54UwK9pR1JjF2LyIA1X6CpX838rqUnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
