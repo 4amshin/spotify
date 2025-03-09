@@ -11,7 +11,7 @@ class AuthTextField extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextField(
+    return TextFormField(
       controller: controller,
       decoration: InputDecoration(hintText: hintText)
           .applyDefaults(Theme.of(context).inputDecorationTheme),

@@ -1,5 +1,6 @@
-Last Time: 02.06.00
-    - Created Auth Page (Intro, Register, Login Page) UI
+Last Time: 02.56.00
+    - We'v implemented Auth Bloc for SignUp and SignIn
 
 Next:
-    - Firebase Setup
+    - Song Feature
+    - Implement the AppUserCubit to your code (for auto login if login when app open)

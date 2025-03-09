@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:spotify/init_dependencies.main.dart';
+import 'package:spotify/presentation/auth/bloc/auth_bloc.dart';
 import 'package:spotify/presentation/choose_mode/bloc/theme_cubit.dart';
 
 class MyBlocProviders extends StatelessWidget {
@@ -16,6 +18,9 @@ class MyBlocProviders extends StatelessWidget {
       providers: [
         BlocProvider(
           create: (_) => ThemeCubit(),
+        ),
+        BlocProvider(
+          create: (_) => serviceLocator<AuthBloc>(),
         ),
       ],
       child: child,
